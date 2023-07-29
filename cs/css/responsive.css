@@ -1,0 +1,256 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul>li a {
+        padding: 20px 20px 20px;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 290px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    ul.spinit li a {
+        margin: 0px 19px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.spinit li a {
+        font-size: 18px;
+        line-height: 16px;
+        margin: 0px 14px;
+    }
+    .casino .game {
+        max-width: 160px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .right_header_info {
+        margin-top: -54px;
+    }
+    .header {
+        padding-bottom: 25px;
+        padding-top: 35px;
+    }
+    .licens_Carousel .carousel-caption {
+        margin: 0px 44px;
+    }
+    .licens_Carousel .test_box .jons {
+        margin-top: 30px;
+    }
+    ul.spinit li a {
+        font-size: 15px;
+        margin: 0px 5px;
+        line-height: 15px;
+    }
+    .two_box .many_box p {
+        padding-top: 30px;
+    }
+    .titlepage h2 {
+        line-height: 40px;
+        font-size: 35px;
+    }
+    .newtetter .tetter {
+        margin-bottom: 30px;
+    }
+    .margin_bottom1 {
+        margin-bottom: 30px;
+    }
+    .text-bg {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .right_header_info {
+        margin-top: -54px;
+    }
+    .header {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    .logo {
+        width: 134px;
+    }
+    .banner_main img {
+        height: 250px;
+    }
+    .text-bg {
+        margin-top: -20px;
+    }
+    .licens_Carousel .carousel-caption {
+        margin: 0px;
+        padding: 30px 20px;
+    }
+    .licens_Carousel {
+        padding: 0;
+    }
+    .menu_iconb {
+        display: none !important;
+    }
+    .licens_Carousel .test_box .jons h4 {
+        font-size: 32px;
+    }
+    .licens_Carousel .test_box .jons {
+        margin-top: 30px;
+    }
+    .two_box .many_box p {
+        padding-top: 30px;
+    }
+    ul.spinit li a {
+        font-size: 14px;
+        margin: 0px 11px;
+        line-height: 14px;
+    }
+    .titlepage h2 {
+        line-height: 37px;
+        font-size: 30px;
+    }
+    .customer .customer_text p {
+        padding: 90px 20px 150px 20px;
+    }
+    .newtetter {
+        padding: 0;
+    }
+    .newtetter .tetter {
+        margin-bottom: 30px;
+    }
+    .margin_bottom1 {
+        margin-bottom: 30px;
+    }
+    ul.Menu_footer {
+        margin-bottom: 30px;
+    }
+    #licens .carousel-control-prev,
+    #licens .carousel-control-next {
+        display: none;
+    }
+}
+
